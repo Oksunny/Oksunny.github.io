@@ -1,0 +1,176 @@
+body {
+	background: #31302b;
+}
+
+.pos{
+	position: absolute; 
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.logo {
+  margin-top: 75px; 
+  width: 100px;
+}
+
+.container {
+	background: white;
+	margin-top:150px;
+	width: 385px;
+	height: 320px;
+	border-radius: 5px;
+}
+.header{
+	margin: 8px 8px 8px 8px;
+	background: #f2672e;
+	height: 55px;
+	border-radius: 5px 5px 0 0;
+	
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 55px;
+	color: rgb(255,255,255);
+	font-family: "DejaVu Sans";
+	font-weight: bold;
+	
+}
+
+.copyright  {
+	
+	margin-top: 500px;
+
+	font-size: 12px;
+	letter-spacing: 0px;
+	line-height: 18px;
+	color: rgb(130,128,120);
+	font-family: "DejaVu Sans";
+	text-align: center;
+}
+
+.body {
+	padding-top: 25px;
+	width: 270px;
+	margin: 0 auto;
+}
+
+
+.field {
+	margin-bottom: 15px;
+	height: 40px;
+	width: 270px;
+}
+
+.username {
+	width: 40px;
+	height: 100%;
+	background: #828078 url("./images/username.png") no-repeat;
+	background-position: center; 
+	float: left;
+
+}
+
+.password {
+	width: 40px;
+	height: 100%;
+	background: #828078 url("./images/password.png") no-repeat;
+	background-position: center; 
+	float: left;
+}
+
+form input {
+	width: 225px;
+	height: 38px; 
+	background: #f7f3eb;
+	border: 0px;
+	padding-left: 5px;
+
+	font-size: 12px;
+	line-height: 18px;
+	color: rgb(222,217,207);
+	font-family: "DejaVu Sans";
+
+}
+
+.login {
+	width: 100%;
+	background: #f2672e;
+	
+
+	font-size: 14px;
+	line-height: 18px;
+	color: rgb(255,255,255);
+	font-family: "DejaVu Sans";
+	font-weight: bold;
+	text-align: center;
+}
+
+.forgotpasswd {
+	margin: none;
+	width: 100%;
+	height: 30px;
+	color: #a7a599;
+
+}
+
+.check {
+	float: left;
+	width: 50%;
+	height: 20px;
+
+	font-size: 12px;
+	line-height: 18px;
+	color: rgb(167,165,153);
+	font-family: "DejaVu Sans";
+}
+
+.rememberMe {
+	float: right;
+	width: 50%;
+	height: 20px;
+	text-align: right;
+
+	font-size: 12px;
+	line-height: 18px;
+	color: rgb(167,165,153);
+	font-family: "DejaVu Sans";
+	font-style: italic;
+	
+}
+
+label{
+position: relative;
+}
+
+input[type=checkbox] {
+	display: none;
+}
+
+input[type=checkbox] + label:before{
+	content: "";
+	width: 16px;
+	height: 16px;
+	background-color: #31302b;
+	margin-right: 0.2em;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+input:checked + label:after{
+	content: "\2714";
+	width: 16px;
+	height: 16px;
+	background-color: #31302b;
+	margin-right: 0.2em;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	color: #c0582d;
+	position: absolute;
+	left: 0px;
+	top: 1px;
+}
