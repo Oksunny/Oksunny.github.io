@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Задание_5</title>
+</head>
+<body>
+	<h1>Задание_5</h1>
+	
+	<script> 
+	var fruits = ["апельсин","банан", "груша"];
+	document.write("<pre>[" + fruits.join(",") + "] Количество элиментов = " + fruits.length + "<pre>" );
+	console.log(fruits.length, fruits)
+
+	fruits.push("яблоко", "ананас");
+	fruits.unshift("грейпфрут")
+	document.write("<pre>[" + fruits.join(",") + "] Количество элиментов = " + fruits.length + "<pre>" );
+	console.log(fruits.length, fruits);
+
+	fruits.shift();
+	fruits.pop();
+	document.write("<pre>[" + fruits.join(",") + "] Количество элиментов = " + fruits.length + "<pre>" );
+	console.log(fruits.length, fruits);
+	
+
+	</script>
+</body>
+</html>
+
